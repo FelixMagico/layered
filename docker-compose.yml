@@ -42,7 +42,7 @@ services:
   nginx:
       build:
         context: ./nginx
-        dockerfile: nginx/Dockerfile
+        dockerfile: Dockerfile
       container_name: esempio-nginx
       ports:
         - "8080:80"
